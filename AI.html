@@ -143,6 +143,45 @@
             color: cyan;
             margin-top: 20px;
         }
+
+        /* Responsive untuk HP */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 20px;
+            }
+
+            nav ul {
+                flex-direction: column;
+                width: 100%;
+                padding-top: 10px;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+
+            .hero h1 {
+                font-size: 32px;
+            }
+
+            .hero {
+                padding: 60px 5%;
+            }
+
+            .floating {
+                width: 60px;
+            }
+
+            .login-box {
+                width: 90%;
+            }
+
+            .welcome-text {
+                font-size: 24px;
+            }
+        }
     </style>
 </head>
 <body>
